@@ -258,7 +258,7 @@ export const projects = [
     ],
     category: "app",
     github: "https://github.com/JayeshST/Flipkart.git",
-    webapp: "https://flipkart1.netlify.app//",
+    webapp: "https://flipkartjayesh.netlify.app//",
 
   },
   // --------------------------------------------------------
@@ -279,7 +279,7 @@ export const projects = [
     ],
     category: "app",
     github: "https://github.com/JayeshST/Hulu.git",
-    webapp: "https://huluseries.netlify.app/",
+    webapp: "https://hulujayesh.netlify.app/",
   },
 // ------------------------------------------------------------------
   {
@@ -299,7 +299,7 @@ export const projects = [
     ],
     category: "app",
     github: "https://github.com/JayeshST/Banjos.git",
-    webapp: "https://banjofood.netlify.app/",
+    webapp: "https://banjosjayesh.netlify.app/",
   },
 // ---------------------------------------------------------
   {
@@ -319,7 +319,7 @@ export const projects = [
     ],
     category: "app",
     github: "https://github.com/JayeshST/Food_Plaza.git",
-    webapp: "https://food-plaza-1.netlify.app/",
+    webapp: "https://foodplazajayesh.netlify.app/",
   },
 // ------------------------------------------------------------
   {
@@ -339,7 +339,7 @@ export const projects = [
     ],
     category: "app",
     github: "https://github.com/JayeshST/Golden_Clutch_Hotel.git",
-    webapp: "https://the-golden-clutch-hotel.netlify.app/",
+    webapp: "https://goldenclutchjayesh.netlify.app/",
   },
 
 // -------------------------------------------------------------
@@ -361,7 +361,7 @@ export const projects = [
   ],
   category: "app",
   github: "https://github.com/JayeshST/redBus.git",
-  webapp: "https://redbus-index.netlify.app/",
+  webapp: "https://redbusjayesh.netlify.app/",
 },
 // --------------------------
 {
@@ -381,7 +381,7 @@ export const projects = [
   ],
   category: "app",
   github: "https://github.com/JayeshST/Galav_Fitness_Club.git",
-  webapp: "https://galav-fitnessclub.netlify.app/",
+  webapp: "https://fitnessclubjayesh.netlify.app/",
 },
 // ----------------------------------
 {
@@ -401,7 +401,7 @@ export const projects = [
   ],
   category: "app",
   github: "https://github.com/JayeshST/Passion_Software_Solutions.git",
-  webapp: "https://passion-software-solutions.netlify.app/",
+  webapp: "https://passionsoftwaresjayesh.netlify.app/",
 },
 // -------------------------------------
 {
@@ -421,7 +421,7 @@ export const projects = [
   ],
   category: "app",
   github: "https://github.com/JayeshST/red-Store.git",
-  webapp: "https://red-storeecommerce.netlify.app/",
+  webapp: "https://redstorejayesh.netlify.app/",
 },
 // -----------------------------------
 {
@@ -441,13 +441,32 @@ export const projects = [
   ],
   category: "app",
   github: "https://github.com/JayeshST/Decathlon_Sports.git",
-  webapp: "https://decathlon1.netlify.app/",
+  webapp: "https://decathlonjayesh.netlify.app/",
 },
 //-----------------------------------------------
 
 
-
-
+// -----------------------------------
+{
+  id: 11,
+  title: " Nykaa Fashion ",
+  date: "Mar 2024 - Mar 2024",
+  description:
+    "          ",
+  image:
+    "images/nykaafashion.PNG",
+  tags: [
+    "HTML5",
+    "CSS",
+    "Java-Script",
+    "BootStrap",
+  
+  ],
+  category: "app",
+  github: "https://github.com/JayeshST/Ecommerce_Fashion.git",
+  webapp: "https://nykaafashionjayesh.netlify.app/",
+},
+//-----------------------------------------------
 
 //web app projects
 // -----------------------------------
