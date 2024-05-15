@@ -17,7 +17,7 @@ export const Bio = {
   facebook: "    ",
   Email: "mailto:thombarejayesh001@gmail.com",
   Mobile:<a href="tel:7066830222"> </a>,
-   Mobile: "tel:7066830222" , 
+ //  Mobile: "tel:7066830222" , 
 
 
 };
