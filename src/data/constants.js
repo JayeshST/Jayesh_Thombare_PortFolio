@@ -258,7 +258,7 @@ export const projects = [
     ],
     category: "app",
     github: "https://github.com/JayeshST/Flipkart.git",
-    webapp: "https://flipkartjayesh.netlify.app//",
+    webapp: "https://flipkartjayesh.vercel.app//",
 
   },
   // --------------------------------------------------------
@@ -464,7 +464,7 @@ export const projects = [
   ],
   category: "app",
   github: "https://github.com/JayeshST/Ecommerce_Fashion.git",
-  webapp: "https://nykaafashionjayesh.netlify.app/",
+  webapp: "https://fashionstreetpune.vercel.app/",
 },
 //-----------------------------------------------
 
