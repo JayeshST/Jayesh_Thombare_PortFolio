@@ -162,7 +162,9 @@ export const skills = [
 export const experiences = [
  
 // write here your work experience
-"   ",
+
+" ",
+
 
 ];
 

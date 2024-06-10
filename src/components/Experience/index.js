@@ -78,7 +78,7 @@ const index = () => {
     return (
         <Container id="experience">
             <Wrapper>
-                <Title>Experience</Title>
+                <Title></Title>
                 <Desc>
                     {
                     
