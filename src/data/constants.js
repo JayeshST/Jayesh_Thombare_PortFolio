@@ -1,3 +1,6 @@
+
+
+
 export const Bio = {
   name: "Jayesh Thombare",
   roles: [
@@ -161,13 +164,21 @@ export const skills = [
 
 export const experiences = [
  
-// write here your work experience
+//write here your work experience
 
-" ",
 
+{
+  id: 0,
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
+  role: "SQL Developer",
+  company: "NCS SoftSolutions Pvt. Ltd.",
+  date: "Sep 2024 - Present", 
+  desc: "Worked as Oracle/SQL database, responsible for assessing various parameters associated with client.",
+  skills: ["Oracle/SQL", "Banking Services"],
+  ////doc: NCS,
+},
 
 ];
-
 export const education = [
   {
 
