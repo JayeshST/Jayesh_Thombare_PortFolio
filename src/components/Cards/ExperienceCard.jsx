@@ -117,7 +117,12 @@ const Date = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
+        
 `
+ 
+
+
+
 
 
 const Skills = styled.div`
@@ -153,6 +158,7 @@ const ExperienceCard = ({ experience }) => {
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>
                     <Date>{experience.date}</Date>
+
                 </Body>
             </Top>
             <Description>

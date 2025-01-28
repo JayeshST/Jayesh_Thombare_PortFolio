@@ -166,19 +166,30 @@ export const experiences = [
  
 //write here your work experience
 
-
 {
-  id: 0,
-  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
-  role: "SQL Developer",
-  company: "NCS SoftSolutions Pvt. Ltd.",
-  date: "Sep 2024 - Present", 
-  desc: "Worked as Oracle/SQL database, responsible for assessing various parameters associated with client.",
-  skills: ["Oracle/SQL", "Banking Services"],
-  ////doc: NCS,
-},
+  "id": 0,
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
+  "role": "Software Associate",
+  "company": "NCS SoftSolutions Pvt. Ltd.",
+  "date": "Sep 2024 - Present",
+
+  "desc": [
+    "Project: CBI eTHIC Audit Banking Software.",
+    "Designed and modified the Ethics Audit Application, including Entity Management, Datasheets implementation.",
+    "Gathered modification requirements from clients, communicated them to the development team, and worked on their implementation.",
+    "Resolved issues in SQL/Oracle and provided required data.",
+    "Developed and maintained reliable RESTful APIs, ensuring seamless integration with internal and external systems.",
+    "Deployed patches in UAT and Live environments, coordinated with the development team, and worked on existing bugs.",
+    "Provided end-to-end support, from application design through production, ensuring system reliability and business continuity.",
+    "Collaborated with cross-functional teams to address complex business requirements in a fast-paced environment."
+  ],
+"skills": ["Java/Spring boot","Oracle/SQL", "BI"], 
+// "doc": "dd"
+}
 
 ];
+
+
 export const education = [
   {
 
