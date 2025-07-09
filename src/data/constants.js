@@ -4,7 +4,7 @@
 export const Bio = {
   name: "Jayesh Thombare",
   roles: [
-    "Full Stack Web Developer",
+    "Full Stack Java Developer",
     "Frontend Developer",
     "Java Backend Developer",
   ],
@@ -18,7 +18,7 @@ export const Bio = {
   twitter: "    ",
   insta: "     ",
   facebook: "    ",
-  Email: "mailto:thombarejayesh001@gmail.com",
+  Email: "mailto:jayeshsthombare001@gmail.com",
   Mobile:<a href="tel:7066830222"> </a>,
  //  Mobile: "tel:7066830222" , 
 
@@ -171,7 +171,7 @@ export const experiences = [
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
   "role": "Software Associate",
   "company": "NCS SoftSolutions Pvt. Ltd.",
-  "date": "Sep 2024 - Present",
+  "date": "Sep 2024 - April 2025",
 
   "desc": [
     "Project: CBI eTHIC Audit Banking Software.",
@@ -183,7 +183,25 @@ export const experiences = [
     "Provided end-to-end support, from application design through production, ensuring system reliability and business continuity.",
     "Collaborated with cross-functional teams to address complex business requirements in a fast-paced environment."
   ],
-"skills": ["Java/Spring boot","Oracle/SQL", "BI"], 
+"skills": ["Java","Spring-Boot/MVC","Hibernate","Oracle/SQL", "BA"], 
+// "doc": "dd"
+},
+
+{
+  "id": 1,
+  "img": "https://cdn.truejob.com/uploads/company/logo/20892/Datamatics-Responsive-Logo.jpg",
+  "role": "Associate Developer",
+  "company": "Datamatics Global Services Pvt. Ltd.",
+  "date": "Jun 2025 - Present",
+
+  "desc": [
+    "Project: Confidential Client Project.   ",
+    "Developed and maintained web applications using Java, Spring Boot, and Hibernate.",
+    "Implemented RESTful APIs for seamless communication between frontend and backend services.",
+    "Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.",
+    "Participated in code reviews and contributed to best practices for software development."
+  ],
+"skills": ["Core Java","Spring-Boot/MVC","Hibernate","Oracle/SQL"], 
 // "doc": "dd"
 }
 

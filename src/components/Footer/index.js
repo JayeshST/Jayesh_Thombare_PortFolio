@@ -99,7 +99,7 @@ function Footer() {
    <h2 style={{border: '1px solid rgba(0,255,0,0.3)'}}>    Get In Touch</h2>
        <h1 ><Logo > JAYESH THOMBARE</Logo></h1> 
           <h4>Pune City in <span style={{color:"orange"}}>Maharashtra,</span> India</h4>
-        <h4 style={{color: "Orange"}}>   <a href='mailto:thombarejayesh001@gmail.com' > thombarejayesh001@gmail.com</a></h4>
+        <h4 style={{color: "Orange"}}>   <a href='mailto:jayeshsthombare001@gmail.com' > jayeshsthombare001@gmail.com</a></h4>
         <h4 style={{color: "Orange"}}>   <a href='mailto:jayeshst001@gmail.com' > jayeshst001@gmail.com</a></h4>
            <h4>+917066830222         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;           +917028586111</h4>
         
