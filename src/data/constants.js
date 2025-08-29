@@ -171,7 +171,7 @@ export const experiences = [
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
   "role": "Software Associate",
   "company": "NCS SoftSolutions Pvt. Ltd.",
-  "date": "Sep 2024 - April 2025",
+  "date": "Sep 2024 - Jun 2025",
 
   "desc": [
     "Project: CBI eTHIC Audit Banking Software.",
@@ -189,14 +189,14 @@ export const experiences = [
 
 {
   "id": 1,
-  "img": "https://cdn.truejob.com/uploads/company/logo/20892/Datamatics-Responsive-Logo.jpg",
-  "role": "Associate Developer",
-  "company": "Datamatics Global Services Pvt. Ltd.",
-  "date": "Jun 2025 - Present",
+  "img": "https://media.licdn.com/dms/image/v2/C510BAQFqb8BFghf4YA/company-logo_200_200/company-logo_200_200/0/1630596318239/reserve_bank_information_technology_pvt_ltd_logo?e=2147483647&v=beta&t=zp-5pdyt_xkGuHbf26sO7cqFri-Ov9PhyynU3P6roHU",
+  "role": "Software Developer",
+  "company": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
+  "date": "July 2025 - Present",
 
   "desc": [
-    "Project: Confidential Client Project.   ",
-    "Developed and maintained web applications using Java, Spring Boot, and Hibernate.",
+    "Project: Confidential RBI Project.   ",
+    "Developed and maintained web applications using Java, Spring Boot, Hibernate and Oracle SQL.",
     "Implemented RESTful APIs for seamless communication between frontend and backend services.",
     "Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.",
     "Participated in code reviews and contributed to best practices for software development."
