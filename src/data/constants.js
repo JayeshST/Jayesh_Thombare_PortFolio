@@ -1,3 +1,4 @@
+import { YouTube } from "@mui/icons-material";
 
 
 
@@ -19,11 +20,11 @@ export const Bio = {
   insta: "     ",
   facebook: "    ",
   Email: "mailto:jayeshsthombare001@gmail.com",
-  Mobile:<a href="tel:7066830222"> </a>,
- //  Mobile: "tel:7066830222" , 
-
-
+  Mobile: "tel:+917028586111",
+YouTube: "https://www.youtube.com/@Jayesh_Thombare"
 };
+
+
 
 export const skills = [
   {
@@ -67,7 +68,7 @@ export const skills = [
       },
       {
         name: "Spring-Boot",
-        image: "https://static-00.iconduck.com/assets.00/spring-icon-256x256-2efvkvky.png",
+        image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAh1BMVEX///9tsz9rsjxhrilosTZpsThjry1grihlsDH8/vvy+O77/fn1+vL3+/Xt9ehvtEGTxXV3uE7n8uGMwmzg7tjB3bKp0JPS5sejzYvD3rS82qu216Pb69KKwWmdyoN7ulOCvV6Xx3vL4r642Kau05p4uFCFv2PN48Jaqxl/vFpTqAClzo+fy4dHEDMlAAAP0klEQVR4nNVdh3LqOhAN6lQXisH0fnnw/9/3JBkCuMiyLdvKmXtnMiEhPkjaXW39+akb/d7qGp7u+/XW6TzhbC/uY7acBv6gW/vfrxOD1XR28RAkjCGMAej8AgCAEWKMELDdhKte209aAoPVcswo4cw+eKUCYEYoGi9Xg7afWR/94L5lhOEcal/AiJDz/Dps+9k14B8vkKC8hUtfTcToZbZqm4ESk5kDi61dkiVxZpO2eWTA5/TKLV6cJPVOfttsEhhMz0bovUjC7aLfNqdPrPaEGaP3JMnYxprdet3SSmcvCwieD21z4+iGDjG8fG8A4oQt8+svoentGePI2KnFA9k9IlYnvQgMLdsyXsMm+D056j1RYJRf4NW7P785Ai2ZszVoEI3GsDl+HSFzdvlGgP9vZopfd1aPflABw02eyHGRY4jgymnoAH4D4avysXqwA41Ye/09bXSDvgGoq7pEzlEHnQwQDDBqh58AQtkShy9hBxjYpo+2FvAJuM9SjhvxyVfepr7Xygn8BHLSDXIfylc1NWcWpi0voASgqSxcKd3BrRLBPWybXQSyTuqNCY1eg6Py/Aa31nfoC8hJ8NiJ3cX/s2lpghPUuJLPBoAx1bggfPlW/AnxpSzBhQ1H8APwS/P1OUE8lmcRlvRInmjblOIgm4/HE5qCK4orP0esnF/gQdomlAQb/z6eEDNoz+1lsZT7MgTX1siYT6Dta0N6/AQREfwQ25QVvy93dy3aaSpgJzJT72JzHsVXB/4VKXwP7t8sJSgoioVb8T0KzvJZB3ybontBgsOztQQ5RdD76YvwFn3ao2tc2PoeehapwSRAp+fyFWAv3RGKbVrI+u7bTVAEAISaP7+ed0RfR1IXtgqZb5C3EcfFKihi1lz+BEH6YcIt+RNT/XCya6UejIN9Ck9xTdQ3a+Z/giDefT20A/TNmqkl10E1gPNtas9RBwA9givrjO00ABa7KgZc6ROtyGOvvqCZScC4I79Ldb01tivCCDQpVMbcrNlpENz/DT2xSD75lMtHmn8NXvwJKUPTnDJ6+sL/E1IGpnuduL5Am9RX3ug6f0HKpG1RAaEvvByGm79wCFOETAShL3LcpsEf2KMAZl7l+zDPbdrPzZhsH5gplPqFG26uiqFr/x5FnirpVtwvoOL1q/2KgoyV/rSV2nDrAuv3aHrw6YMCU17077bvUZzvLrxg4ePPgPW6nt3yb/BHvogoayPv7Da4AZ3n8osOIsw4iAcLAxQfQEAr60l1EDs2ixlAc5OGnljzg7hOfeVos2cGYe2IhNCIJO2FvsUEAc3MM0kiUyNarCmIVyTvUMSE00zTnrViBqGCCQjbdJ/izNIlxHReNDjPqaTEoIZ2KntM3eI5MiKiTxO/drJxCTEdl0lV69EUZ03fQoKcX8myEuGsiQeDQ+tUBYJu6VRDF3fANvY9y8wZwMi9Qo6asF3YtwUUWKUqEPSqlXal6PyxPZcKTNi8alXXgMZ1/sgW3wUmyFVnrOuBy0385Re2QlUARKh7NVPnJETNl1+4dQ8iRgRu7+bqemRA/+PDWrUoZwBGjLDxMjBarx6wb1HTgh9fNB1gjEDouctrBb2QgdG357tbv7YXbRSwbKQgWilAhjo3d7Y8rEY1ld51+bFDb6dOXe4Z2RuC86GUdbzb2N3PT8fp4RBMRvU3xLiBT6tmb1oZAswYJJ3zeL5ccD5t9EoQBw+/PseuyVMoG12cN2Hgt9vQQ9jZv0E2c5IUMOi4oRVl5jLt5KV9DPlnMKO3ozXdEGQ8/+U0NRHU5qt3WVjVgYW+7Ta/uk2KiXe0rY8OX7dXGdS0qjZE1G2v6UrmvhG3padb2K2mKxCZmzdJ9JH52c6FZRptrEoxUQRn7Z6+jJyTZ863FOtVjiGGj5alyzVzDQ+/NULljyGAl9aVwzrTXhJansmAeOl7BXLMtmkog1HcofaGCFKgh/jqXO4YAvpojEc2Ztn16UP0LEfslnPmI2xDV67uP8VTCIUoHBmTUkYpGVvRW21KFbewLd+cuF/S1w1NNC8wAKDK7hIqHw4ixVgQgLYvYiQW/1Spso+oslSk1xQliFvXEU8AZXmM8JCSVYmLRVT1ZwOmcKd6WcYugp9hUUHzqtxsH11AMk02gYVguChss9lD8OfEiFKgi0AwOkrPaQGAjjUEe1CdJyvNNnSSS1mAILblDIpM35wsRaHp8Vz69/VBbZGioi4LIPVPSIabn3sRZUFNxL0MwQN55U3Csc83cpELPrPEkhFYss/i2FSIhAywFs5vXcRqGVsFX5/sNOAnBlC25HHymT0BkDViVFpiNO9yI1Ogtj/6ezSzSKUFhCSZTJJAXzD09BnmKJ9GIcruSf4HXpAhsWiPisiZRnMIwdDRZsja7gb7AdHMRG2SSnQLMcytd2sQspmJxhL2CzHMLhVrHAPRVltjCSNZqnsOtWqHG4IoCdFq0SL0oTbDXN3THMQh7MS7maViFGl8vSWs1qzPJA5Ue0uJqy+46DEk1ljcE3lhzyr5if0sv1uAsRZD3UYT9aMnm/cjPeND3IDxQ4th1Z6ZxtCNOj0QvWu4cF+gmRbDKg0ljSJqeaTbJkkE1dBJh2H5bouGsZceF+1mXsJ9waY6tyemoV2bwDxyfCbamWRBJNGw4Oecz1Cjj0YTWEZ+T6RTYykh3Bdk9bPOveNbogzDiCAA2jl/wn3BRUh+0l6x/md1YfoMcxYICol4BRxqlHPpqdeasXgSZPqB54GQS6j/c8xliC2YjfYiWOQS5z9bmB/yfN4ZBbWN4kWwQwvsJ5GcKAzY3MxLCwya1xnskCLPIoJrosyylxd7Yq3ffY8vgsW20wZLk+anmydLzUxUqID7aw0ALlRsIhIVpLGyzVGItKYH18X+9xgVvIaLlRdB7jyFaGKgQhW8uzSTYnpZhn5lbmJOeK1dUTp4NzFGBdtYy8CozC+9qtUFzmsMVid88LvB3n1mNSHS9aJmrTl1eYVbKxvE4d3qHrCiwWeRrvd8ePUatqgOZx8Zd0VUvYRofP0q51ZXj7bmze+uP2yR4nEvefiemk5dXNkWQ9/5eCxSPPgsk9meJrW6xrmlXfo1bYKVkHaS4NP9MlAeRCMjlApj8yn+UF44OwUiwvh+dqVVg4zNMtOH730eHLQr8Rayl9Bvvo3yEqzvFjGG8GseCt6WuZ/KBAz4smOVB7HcRIwKGK6/Hgc7ZWq7pZJ/e0H7Kp3ftNV2/R6ZXDJRUCY+s7eQXCs0YrPB3+7m+9PGJfPopGj5KOVWpnqrukiaxpV9i4SyqZ7yXvEZT1KaprCxbMSBGxuMWTqXVZaMok+3nEpfkKbCvyGMHRZ0LtlAIqpr/srNXCq2aUNm2yoxlg/tyroxo5zZr6FBI0XdTCPqohffoPwBywtxWecUu9jusrdpA8K0O4tvUL7Hyn+wkX6PJRCrKvRqj4+GOPnXYQVjMepQyr6/OVRI05rDh4dOcnQyyOpGroNobEXCN6FIFa41KfHgpUyZwJXkd1QElHDzqmxTVX1YJXQXnbQpGuhcRQUHcjumBD0VxUElB+7lob8EqaO9SbU948n3TOl8qWjOWkumgv+AqfwAraZ/p9FmpEljQdUX0nzo4rCD6ZdS1KkWjx1Eb5t6q1UUPCOzFb/+DGUNsSFuxTP/nK2SuiYThcKA5jKge+GNZH2WAFa1ECMxk3WpVdwSTTm+e9NL+umTYOeqp+E11iEj5Ua5iAbsmlF4gyz7UwRVzJgnnmMdMgsVFMZpbn1KHvzllmavnlhAr3rKx2v+T2ahwkq1iBV0Yj+YI4iUgVgMDTieX8WiIDtMpaiBAqhk6pcfjlGmaHm9ObwYOAVdD+QsoXrUWhmf2+iwR6qj9wQDRlKQ18/PUXndU4WhCpbmDYO7p8FONrgxYvfeX0aZsrJUWfasH+EaBKcdJeqT9wSmGzOeruXr0XNqCJWdXLQoDoPZlumxEwKmVC/rFLyHNebEUtWN5/Mo9q6zG9RlJ9ZvbSop8DdrKj+hQT3/IbvhR9dfbBzItNlV62Udx/ItIvMNTE/5jKlziPixu2BahF0HMLox5/6Zv8WHRjLsRN2QB6EvSdUdHeYOFyrFuodg4i0NZlaP3/tOyzGY0zYK/AqHUbC8dAptzOgNGF2bTAbsfQ4O10oMyx1UwgX8aBW6mMuUwv2VAYLe0mggJCAf+0fzIps/Og8Rwko0jwaI4Lthd8H8U4NrZ7nX0jaZrx64mw7yxIId+smLxkdYis05M54QP3x8BzsKOFvMDjvGDDqnGtJwp+h7rwGngH27NNZ2FzNyCesIfBycuEQs1ndlnTyKiEEKifKeHgOXLHB/qKWM/3pLeOsKJtj24/M8MNkEo95ocvQ0l1cevXrCx/0wJRhQOHEqZtoQ93cpDhoDu/nR8+o4egL+HKVsJFA87Sb8VDRfw5MHOSO7Ob3xoqaYY2+6TXeWl3HLb94nmXw7aoeKkTRcsqzragk9CndZcqCco+zy+rASAcQgwxWACXEP9RQrDlenc7Y7kpRztf7Ork627kvz52DG3GstkcZenttAs7Y7iVEkU1K8wYkmb5jRcQ2r1/WD497Lu7/g8iWgkZ8/JY4fC8UhuD6YmQ7zRH8wCcKZ6xEdE79c9uIT0nxLG5X4abkCIO5D/dEkmB7ve3e83t22XoTzbXdZj939Zj47HcNwujhcg9Vk4vsjjt4bo5HvT1bBYREu5+765jDIqWnezSo2yRM3qbSozOX9x8H6NBsDKuwdxp+KA3wBy9Ek0XASOZ+EA3Lw34DyHxVfQSjWi78BEr+vw+z151lFxbSgqarmMxEOoOI3YWMApLJhMaVpiQq2zL8Civnb2jj8S8bEDUxTMAJgpgr78F/iW5aMZAXMkO17iFsMPTtGJQJkzPoNYnvBjjl72DFo3vtf7/WwYgnRzaiR0Xv7cAdrKwiyqpkFcQz30i7rjmbEii0Kayj83PzbXm4gI1mrYQBacMazHha09SGJT2BUU/3AxLFiATvsVlsbzu7YgoGzgNZaTRcmigaaBkY19+nwE4UfzYKs628UO2txGXFKcnMNmLS2jOTSVJXZshWtj1CDfeN648a3KqD7ZtvGBYngVr38yK35jmMha07/M6eVbun9e0NGKmuvJ17vkZcba4IfOrXZt7E3p7VyBAwtjV50S2AwSwtYGuJHHCs6wfenTi36EVHPnmkMgasoFCkFwNjGho6Ub/RCL6fgoAg9BG+Lto9fCvxZxwRJwHdnXVkO1bGadfSToNOAGfGW1tKLMFnqpuknF4/AcS35U8YRpesXyc8EmEG0W64s6AWrjcEqdAGVgVwVUQCwyCbzNouJhZIlH8PJ4bS/OUSEh1EU3X1HhRnj3+9s3dPB/0tLl4rhaHWdLk/3x95dX15x/eMhmPSGDXD7H6I+843/kuBPAAAAAElFTkSuQmCC",
       },
       
       {
@@ -148,7 +149,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          "data:image/png;base64,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",
       },
      
       {
@@ -164,10 +165,51 @@ export const skills = [
 
 export const experiences = [
  
-//write here your work experience
+//write here your work experience{
+
+  {
+  "id": 3,
+  "img": "https://media.licdn.com/dms/image/v2/C510BAQFqb8BFghf4YA/company-logo_200_200/company-logo_200_200/0/1630596318239/reserve_bank_information_technology_pvt_ltd_logo?e=2147483647&v=beta&t=zp-5pdyt_xkGuHbf26sO7cqFri-Ov9PhyynU3P6roHU",
+  "role": "Software Developer",
+  "company": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
+  "date": "July 2025 - Present",
+
+  "desc": [
+    "Project: PRAVAAH WEB Application RBI Project.   ",
+    "- Designed and enhanced modules for the PRAVAAH application, focusing on workflow automation and user access management.",
+    "- Interacted with RBI stakeholders to gather change requests, translated them into technical tasks, and coordinated with the development team for implementation.",
+    "- Resolved backend issues in SQL/Oracle databases and ensured accurate data delivery for reporting and compliance.",
+    "Developed and maintained RESTful APIs to support seamless communication between internal modules and external systems.",
+    "- Deployed updates and patches in UAT and production environments, handled bug fixes, and ensured system stability.",
+    "Provided end-to-end support from requirement analysis to production rollout, maintaining application reliability and performance.",
+    "- Collaborated with cross-functional teams to meet regulatory standards and deliver solutions in a high-stakes environment."
+  ],
+"skills": ["Core Java","Spring-Boot/MVC","Hibernate","Oracle/SQL"], 
+// "doc": "dd"
+},
 
 {
-  "id": 0,
+  "id": 2,
+  
+  "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHAvlzUsYGfxQ/company-logo_200_200/company-logo_200_200/0/1630653955408/datamatics_global_services_logo?e=2147483647&v=beta&t=ItA08J3li8Jh7vkOudt6rCtTACMRn-Gh9uMn4Uqo1b4",
+  "role": "Associate Software Engineer",
+  "company": "Datamatics Global Services Limited",
+  "date": "June 2025 - July 2025 ",
+
+  "desc": [
+    "Project: Confidential Project.   ",
+    "Developed and maintained web applications using Java, Spring Boot, Hibernate and Oracle SQL.",
+    "Implemented RESTful APIs for seamless communication between frontend and backend services.",
+    "Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.",
+    "Participated in code reviews and contributed to best practices for software development."
+  ],
+"skills": ["Core Java","Spring-Boot/MVC","Hibernate","Oracle/SQL"], 
+  "doc": ""
+},
+
+
+{
+  "id": 1,
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
   "role": "Software Associate",
   "company": "NCS SoftSolutions Pvt. Ltd.",
@@ -186,24 +228,6 @@ export const experiences = [
 "skills": ["Java","Spring-Boot/MVC","Hibernate","Oracle/SQL", "BA"], 
 // "doc": "dd"
 },
-
-{
-  "id": 1,
-  "img": "https://media.licdn.com/dms/image/v2/C510BAQFqb8BFghf4YA/company-logo_200_200/company-logo_200_200/0/1630596318239/reserve_bank_information_technology_pvt_ltd_logo?e=2147483647&v=beta&t=zp-5pdyt_xkGuHbf26sO7cqFri-Ov9PhyynU3P6roHU",
-  "role": "Software Developer",
-  "company": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
-  "date": "July 2025 - Present",
-
-  "desc": [
-    "Project: Confidential RBI Project.   ",
-    "Developed and maintained web applications using Java, Spring Boot, Hibernate and Oracle SQL.",
-    "Implemented RESTful APIs for seamless communication between frontend and backend services.",
-    "Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.",
-    "Participated in code reviews and contributed to best practices for software development."
-  ],
-"skills": ["Core Java","Spring-Boot/MVC","Hibernate","Oracle/SQL"], 
-// "doc": "dd"
-}
 
 ];
 
@@ -287,8 +311,9 @@ export const projects = [
     id: 1,
     title: "FLIPKART",
     date: "Aug 2022 - Aug 2022",
-    description:
-      "               ",
+description: `   Here I will be talking about how I have tried to clone Flipkart website’s functionalities.
+So, This time as a part of our CDAC Curriculum’s Frontend project.we were given a task to develop a clone of a website named Flipkart.which is an online ecommerce website.this way my solo project which I worked on this project a year ago.
+Moving ahead let’s talk about what skills we required to build a website like this, a frontend developer design team’s website design and writes the code needed to implement it on the web. A decent front-end web developer will be fluent in programming languages-HTML,CSS,JavaScript and Bootstrap.            `,
     image:
            "images/flipkart.PNG",
     tags: [
@@ -309,7 +334,7 @@ export const projects = [
     title: "HULU",
     date: "Aug 2022 - Aug 2022",
     description:
-      "          ",
+      "Creating the Hulu website clone frontend involved challenges like building a responsive layout, replicating dynamic content sliders, managing routing with React, and ensuring smooth UI performance. Matching Hulu’s design and optimizing for various devices required careful attention to detail and component reusability.",
     image:
       "images/hulu.PNG",
     tags: [
@@ -329,7 +354,7 @@ export const projects = [
     title: "BANJO'S",
     date: "sept 2022 - sept 2022",
     description:
-      "          ",
+      "Building the Banjo Food App frontend involved challenges like designing an intuitive UI for browsing and ordering food, implementing responsive layouts for mobile-first users, and managing dynamic data for menus and cart functionality. Ensuring smooth navigation, real-time updates, and a visually appealing experience required careful component structuring and state management.",
     image:
       "images/banjo.PNG",
     tags: [
@@ -349,7 +374,7 @@ export const projects = [
     title: "FOOD PLAZA",
     date: "Mar 2022 - Mar 2022",
     description:
-      "          ",
+      "Designing the Food Plaza app’s menu list required handling dynamic data for multiple categories, ensuring smooth scrolling and responsive layout, and creating reusable components for consistent UI. Integrating filters and search added complexity to state management and user experience.",
     image:
       "images/foodplaza.PNG",
     tags: [
@@ -369,7 +394,7 @@ export const projects = [
     title: "GOLDEN CLUTCH HOTEL",
     date: "Apr 2022 - Apr 2022",
     description:
-      "          ",
+      "Developing the Golden Clutch Hotel frontend involved challenges like designing a luxurious and user-friendly interface for booking and browsing rooms, implementing responsive layouts for all devices, and managing dynamic data for room listings and availability. Ensuring smooth navigation and a premium visual experience required careful component structuring and attention to design aesthetics.",
     image:
       "images/goldenhotel.PNG",
     tags: [
@@ -391,7 +416,7 @@ export const projects = [
   title: "REDBUS",
   date: "sept 2022 - sept 2022",
   description:
-    "          ",
+    "Developing the RedBus frontend clone involved challenges like designing a clean and responsive UI for bus search and booking, implementing dynamic filters and date pickers, and managing state for seat selection and user inputs. Ensuring smooth navigation and real-time data handling was key to replicating the user experience of a travel booking platform.",
   image:
     "images/redbus.PNG",
   tags: [
@@ -411,7 +436,7 @@ export const projects = [
   title: "GALAV FITNESS CLUB",
   date: "Aug 2022 - Aug 2022",
   description:
-    "          ",
+    "designing the Gym Website’s UX was all about channeling energy into digital form. The challenge lay in crafting a layout that felt powerful yet intuitive, guiding users effortlessly through class schedules, trainer profiles, and membership options. Prioritizing mobile usability and motivational design elements helped create a seamless experience that keeps users coming back for more.",
   image:
     "images/club.PNG",
   tags: [
@@ -431,7 +456,7 @@ export const projects = [
   title: "PASSION SOFTWARE SOLUTIONS",
   date: "Apr 2022 - Apr 2022",
   description:
-    "          ",
+    "Crafting the Coding Classes website meant balancing clarity with creativity—designing an interface that inspires learners while staying functional and responsive. Challenges included structuring course data dynamically, integrating smooth registration flows, and maintaining a clean layout that adapts across devices. The goal was to make learning feel intuitive, accessible, and visually motivating.",
   image:
     "images/passion.PNG",
   tags: [
@@ -451,7 +476,7 @@ export const projects = [
   title: "REDSTORE",
   date: "Aug 2022 - Aug 2022",
   description:
-    "          ",
+    "Building the RedStore clothing eCommerce frontend involved challenges like designing a visually appealing and responsive product grid, implementing dynamic filtering and sorting for categories, and managing cart and checkout flows with smooth state transitions. Ensuring fast load times and a seamless user experience was key to replicating a professional shopping platform.",
   image:   
     "images/redstore1.PNG",
   tags: [
@@ -471,7 +496,7 @@ export const projects = [
   title: "DECATHLON ",
   date: "Aug 2022 - Aug 2022",
   description:
-    "          ",
+    "Creating the Decathlon static website involved challenges like designing a clean and organized layout to showcase sports categories and products, ensuring responsive design across devices, and maintaining visual consistency without dynamic data or backend support. The focus was on delivering a fast, user-friendly experience using only HTML, CSS, and minimal JavaScript.",
   image:
     "images/decathlon.PNG",
   tags: [
@@ -494,7 +519,7 @@ export const projects = [
   title: " Nykaa Fashion ",
   date: "Mar 2024 - Mar 2024",
   description:
-    "          ",
+    "Developing the Nykaa Fashion frontend involved challenges like designing a stylish and responsive UI for showcasing apparel and accessories, implementing dynamic product filtering and category navigation, and ensuring smooth user interaction across devices. Maintaining brand consistency and optimizing performance were key to delivering a premium shopping experience.",
   image:
     "images/nykaafashion.PNG",
   tags: [
