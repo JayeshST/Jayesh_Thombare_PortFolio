@@ -132,7 +132,7 @@ const Navbar = () => {
         </ButtonContainer>
 
         {/* Mobile Menu */}
-        {isOpen && (
+      {isOpen && (
   <MobileMenu isOpen={isOpen}>
     <MobileLink href="#about" onClick={() => setIsOpen(false)}>About</MobileLink>
     <MobileLink href="#skills" onClick={() => setIsOpen(false)}>Skills</MobileLink>
@@ -141,7 +141,7 @@ const Navbar = () => {
     <MobileLink href="#education" onClick={() => setIsOpen(false)}>Education</MobileLink>
 
     {/* ✅ Socials Tab directly below Education */}
-    <div style={{ position: "relative", width: "100%" }}>
+    <div style={{ width: "100%", marginTop: "8px" }}>
       <MobileLink
         href="#socials"
         onClick={(e) => {
@@ -199,6 +199,8 @@ const Navbar = () => {
     </GitHubButton>
   </MobileMenu>
 )}
+
+
 
       </NavbarContainer>
     </Nav>
