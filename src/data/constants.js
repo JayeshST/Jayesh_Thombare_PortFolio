@@ -161,12 +161,72 @@ export const skills = [
 
 export const experiences = [
  
-// write here your work experience
+//write here your work experience{
 
-" ",
+  {
+  "id": 3,
+  "img": "https://media.licdn.com/dms/image/v2/C510BAQFqb8BFghf4YA/company-logo_200_200/company-logo_200_200/0/1630596318239/reserve_bank_information_technology_pvt_ltd_logo?e=2147483647&v=beta&t=zp-5pdyt_xkGuHbf26sO7cqFri-Ov9PhyynU3P6roHU",
+  "role": "Software Developer",
+  "company": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
+  "date": "July 2025 - Present",
 
+  "desc": [
+    "Project: PRAVAAH WEB Application RBI Project.   ",
+    "- Designed and enhanced modules for the PRAVAAH application, focusing on workflow automation and user access management.",
+    "- Interacted with RBI stakeholders to gather change requests, translated them into technical tasks, and coordinated with the development team for implementation.",
+    "- Resolved backend issues in SQL/Oracle databases and ensured accurate data delivery for reporting and compliance.",
+    "Developed and maintained RESTful APIs to support seamless communication between internal modules and external systems.",
+    "- Deployed updates and patches in UAT and production environments, handled bug fixes, and ensured system stability.",
+    "Provided end-to-end support from requirement analysis to production rollout, maintaining application reliability and performance.",
+    "- Collaborated with cross-functional teams to meet regulatory standards and deliver solutions in a high-stakes environment."
+  ],
+"skills": ["Core Java","Spring-Boot/MVC","Hibernate","Oracle/SQL"], 
+// "doc": "dd"
+},
+
+{
+  "id": 2,
+  
+  "img": "https://media.licdn.com/dms/image/v2/C4E0BAQHAvlzUsYGfxQ/company-logo_200_200/company-logo_200_200/0/1630653955408/datamatics_global_services_logo?e=2147483647&v=beta&t=ItA08J3li8Jh7vkOudt6rCtTACMRn-Gh9uMn4Uqo1b4",
+  "role": "Associate Software Engineer",
+  "company": "Datamatics Global Services Limited",
+  "date": "June 2025 - July 2025 ",
+
+  "desc": [
+    "Project: Confidential Project.   ",
+    "Developed and maintained web applications using Java, Spring Boot, Hibernate and Oracle SQL.",
+    "Implemented RESTful APIs for seamless communication between frontend and backend services.",
+    "Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.",
+    "Participated in code reviews and contributed to best practices for software development."
+  ],
+"skills": ["Core Java","Spring-Boot/MVC","Hibernate","Oracle/SQL"], 
+  "doc": ""
+},
+
+
+{
+  "id": 1,
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqoz1PNbv6FheREQDBdhFKgOJk69ecbLWbow&s",
+  "role": "Software Associate",
+  "company": "NCS SoftSolutions Pvt. Ltd.",
+  "date": "Sep 2024 - Jun 2025",
+
+  "desc": [
+    "Project: CBI eTHIC Audit Banking Software.",
+    "Designed and modified the Ethics Audit Application, including Entity Management, Datasheets implementation.",
+    "Gathered modification requirements from clients, communicated them to the development team, and worked on their implementation.",
+    "Resolved issues in SQL/Oracle and provided required data.",
+    "Developed and maintained reliable RESTful APIs, ensuring seamless integration with internal and external systems.",
+    "Deployed patches in UAT and Live environments, coordinated with the development team, and worked on existing bugs.",
+    "Provided end-to-end support, from application design through production, ensuring system reliability and business continuity.",
+    "Collaborated with cross-functional teams to address complex business requirements in a fast-paced environment."
+  ],
+"skills": ["Java","Spring-Boot/MVC","Hibernate","Oracle/SQL", "BA"], 
+// "doc": "dd"
+},
 
 ];
+
 
 export const education = [
   {
