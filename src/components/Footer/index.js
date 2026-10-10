@@ -121,7 +121,7 @@ function Footer() {
   
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2021-2025 <span style={{color: "Orange"}}>  Jayesh Thombare.</span> All rights reserved.
+          &copy; 2021-2027 <span style={{color: "Orange"}}>  Jayesh Thombare.</span> All rights reserved.
         </Copyright>
 
       </FooterWrapper>

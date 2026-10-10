@@ -17,11 +17,11 @@ export const Bio = {
                    "   "  ,
   linkedin: "https://www.linkedin.com/in/jayesh-thombare-473771189/",
   twitter: "    ",
-  insta: "    https://www.instagram.com/pov_of_jayesh ",
+  insta: "https://www.instagram.com/pov_of_jayesh",
   facebook: "    ",
   Email: "mailto:projectsupport.jayesh@gmail.com",
   Mobile: "tel:+917028586111",
-YouTube: "https://www.youtube.com/@Pov_of_jayesh"
+YouTube: "https://www.youtube.com/@Pov_of_jayesh",
 };
 
 
