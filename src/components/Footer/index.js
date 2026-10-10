@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -99,9 +100,8 @@ function Footer() {
    <h2 style={{border: '1px solid rgba(0,255,0,0.3)'}}>    Get In Touch</h2>
        <h1 ><Logo > JAYESH THOMBARE</Logo></h1> 
           <h4>Pune City in <span style={{color:"orange"}}>Maharashtra,</span> India</h4>
-        <h4 style={{color: "Orange"}}>   <a href='mailto:thombarejayesh001@gmail.com' > thombarejayesh001@gmail.com</a></h4>
-        <h4 style={{color: "Orange"}}>   <a href='mailto:jayeshst001@gmail.com' > jayeshst001@gmail.com</a></h4>
-           <h4>+917066830222         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;           +917028586111</h4>
+        <h4 style={{color: "Orange"}}>   <a href='mailto:jayeshsthombare001@gmail.com' > jayeshsthombare001@gmail.com</a></h4>
+               <h4>+917028586111</h4>
         
         <Nav>
           <NavLink href="#about">About</NavLink>
@@ -111,6 +111,7 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.YouTube} target="display"><YouTubeIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
@@ -120,7 +121,7 @@ function Footer() {
   
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2021-2024 <span style={{color: "Orange"}}>  Jayesh Thombare.</span> All rights reserved.
+          &copy; 2021-2025 <span style={{color: "Orange"}}>  Jayesh Thombare.</span> All rights reserved.
         </Copyright>
 
       </FooterWrapper>
