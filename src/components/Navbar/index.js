@@ -109,8 +109,8 @@ const Navbar = () => {
                   position: "absolute",
                   top: "100%",
                   left: 0,
-                  background: "rgba(255,255,255,0.7)",  // faint background
-                  backdropFilter: "blur(8px)",           // blur effect
+                  background: "rgba(255,255,255,0.7)",
+                  backdropFilter: "blur(8px)",
                   boxShadow: "0px 4px 12px rgba(0,0,0,0.15)",
                   borderRadius: "10px",
                   zIndex: 1000,
@@ -118,7 +118,7 @@ const Navbar = () => {
                   flexWrap: "wrap",
                   gap: "16px",
                   padding: "14px",
-                  animation: "fadeIn 0.3s ease-in-out"   // smooth fade animation
+                  animation: "fadeIn 0.3s ease-in-out"
                 }}
               >
                 {socialLinks.map((item, index) => (
@@ -161,12 +161,31 @@ const Navbar = () => {
             <MobileLink href="#projects" onClick={() => setIsOpen(false)}>Projects</MobileLink>
             <MobileLink href="#education" onClick={() => setIsOpen(false)}>Education</MobileLink>
 
+            {/* Socials Dropdown inside Mobile Menu */}
+            <div style={{ marginTop: "12px" }}>
+              <span style={{ fontWeight: "600", marginBottom: "8px", display: "block" }}>Socials</span>
+              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                {socialLinks.map((item, index) => (
+                  <a
+                    key={index}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={linkStyle}
+                  >
+                    {item.icon} {item.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+
             <GitHubButton
               style={{
                 padding: '10px 16px',
                 background: `${theme.primary}`,
                 color: 'white',
-                width: 'max-content'
+                width: 'max-content',
+                marginTop: "16px"
               }}
               href={Bio.github}
               target="_blank"
