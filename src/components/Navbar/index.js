@@ -132,7 +132,7 @@ const Navbar = () => {
         </ButtonContainer>
 
         {/* Mobile Menu */}
-      {isOpen && (
+     {isOpen && (
   <MobileMenu isOpen={isOpen}>
     <MobileLink href="#about" onClick={() => setIsOpen(false)}>About</MobileLink>
     <MobileLink href="#skills" onClick={() => setIsOpen(false)}>Skills</MobileLink>
@@ -164,7 +164,10 @@ const Navbar = () => {
             flexDirection: "column",
             gap: "10px",
             padding: "12px",
-            width: "100%"
+            width: "100%",
+            zIndex: 2000,              // ✅ ensure above other elements
+            position: "relative",      // ✅ keep inside flow
+            pointerEvents: "auto"      // ✅ allow clicks
           }}
         >
           {socialLinks.map((item, index) => (
@@ -199,6 +202,8 @@ const Navbar = () => {
     </GitHubButton>
   </MobileMenu>
 )}
+
+
 
 
 
