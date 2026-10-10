@@ -153,47 +153,50 @@ const Navbar = () => {
         </ButtonContainer>
 
         {/* Mobile Menu */}
-        {isOpen && (
-          <MobileMenu isOpen={isOpen}>
-            <MobileLink href="#about" onClick={() => setIsOpen(false)}>About</MobileLink>
-            <MobileLink href="#skills" onClick={() => setIsOpen(false)}>Skills</MobileLink>
-            <MobileLink href="#experience" onClick={() => setIsOpen(false)}>Experience</MobileLink>
-            <MobileLink href="#projects" onClick={() => setIsOpen(false)}>Projects</MobileLink>
-            <MobileLink href="#education" onClick={() => setIsOpen(false)}>Education</MobileLink>
+{isOpen && (
+  <MobileMenu isOpen={isOpen}>
+    <MobileLink href="#about" onClick={() => setIsOpen(false)}>About</MobileLink>
+    <MobileLink href="#skills" onClick={() => setIsOpen(false)}>Skills</MobileLink>
+    <MobileLink href="#experience" onClick={() => setIsOpen(false)}>Experience</MobileLink>
+    <MobileLink href="#projects" onClick={() => setIsOpen(false)}>Projects</MobileLink>
+    <MobileLink href="#education" onClick={() => setIsOpen(false)}>Education</MobileLink>
 
-            {/* Socials Dropdown inside Mobile Menu */}
-            <div style={{ marginTop: "12px" }}>
-              <span style={{ fontWeight: "600", marginBottom: "8px", display: "block" }}>Socials</span>
-              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                {socialLinks.map((item, index) => (
-                  <a
-                    key={index}
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={linkStyle}
-                  >
-                    {item.icon} {item.label}
-                  </a>
-                ))}
-              </div>
-            </div>
+    {/* Socials Section just below Education */}
+    <div style={{ marginTop: "12px" }}>
+      <span style={{ fontWeight: "600", marginBottom: "8px", display: "block" }}>Socials</span>
+      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+        {socialLinks.map((item, index) => (
+          <a
+            key={index}
+            href={item.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={linkStyle}
+            onClick={() => setIsOpen(false)} // close menu after click
+          >
+            {item.icon} {item.label}
+          </a>
+        ))}
+      </div>
+    </div>
 
-            <GitHubButton
-              style={{
-                padding: '10px 16px',
-                background: `${theme.primary}`,
-                color: 'white',
-                width: 'max-content',
-                marginTop: "16px"
-              }}
-              href={Bio.github}
-              target="_blank"
-            >
-              Github Profile
-            </GitHubButton>
-          </MobileMenu>
-        )}
+    <GitHubButton
+      style={{
+        padding: '10px 16px',
+        background: `${theme.primary}`,
+        color: 'white',
+        width: 'max-content',
+        marginTop: "16px"
+      }}
+      href={Bio.github}
+      target="_blank"
+    >
+      Github Profile
+    </GitHubButton>
+  </MobileMenu>
+)}
+
+        
       </NavbarContainer>
     </Nav>
   )
