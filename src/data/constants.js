@@ -10,7 +10,7 @@ export const Bio = {
     "Java Backend Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+"Building secure, user‑friendly, and creative digital solutions. With expertise in Java, Spring Boot, React, and SQL, I design and deliver websites and management systems for colleges, schools, hotels, restaurants, and small businesses. My goal is to provide high‑quality results with modern design, reliable performance, and affordable pricing, helping every client bring their ideas online with confidenc",
   github: "https://github.com/JayeshST",
   resume:
     // "    add your resume here       " 
@@ -19,7 +19,7 @@ export const Bio = {
   twitter: "    ",
   insta: "     ",
   facebook: "    ",
-  Email: "mailto:jayeshsthombare001@gmail.com",
+  Email: "mailto:projectsupport.jayesh@gmail.com",
   Mobile: "tel:+917028586111",
 YouTube: "https://www.youtube.com/@Jayesh_Thombare"
 };
@@ -157,6 +157,12 @@ export const skills = [
         image:
           "https://avatars.githubusercontent.com/u/7658037?s=280&v=4",
       },
+  {
+        name: "WebLogic",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2lXgcMSRMMGqFQQL568jAJ-wRl7JZhOeN_Bg2xhCgjg&s=10",
+      },
+
     ],
   },
   
@@ -256,7 +262,7 @@ export const education = [
     {
     id: 1,
     
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/BATU_logo.png/220px-BATU_logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVenTGvajuPPgrOzQ9Z2AGOUpdwz-eijXtDBCl0p8cVQ&s=10",
     school: "Dr. Babasaheb Ambedkar Technological University, Affiliated J.T.Mahajan College Of Engineering ",
     date: "Jun 2020 - Jun 2023",
     grade: "9.31 CGPA",
@@ -539,7 +545,7 @@ Moving ahead let’s talk about what skills we required to build a website like 
 // -----------------------------------
 {
   id: 51,
-  title: " DREAM CAR ",
+  title: " DREAM CAR /VMS ",
   date: "Feb 2024 - Feb 2024",
   description:
     " The main objective of the Project on Vehicle Management System is to manage the details of Car, Car Booking, Test drive, Insurance, Finance. The project is built in accordance to the user perspective so that there is easy to use interface,  salesperson will have control over the services opted by the user and the internals will  be managed by admin. The purpose of the project is to build an application program to reduce the manual work for managing the Car and all the relating services offered.   The proposed project is a Dream Car that provides Customers with an easy way to buy a car online. It overcomes the problem of finding the best car for their needs and reduces that unnecessary consumption of time. So in our application, we aim to keep our website interactive and easy to use for users. These requirements are used to design the system by creating data flow,user interface, and E-R diagrams. The frontend is implemented using React-JS. MySQL is used to build the database. Java (Spring Boot) is used as a Server-side scripting language.We have also implemented Spring Security in our project. The Project has been deployed using Docker and the Kubemetes orchestration tool on the AWS platform."
@@ -565,10 +571,32 @@ Moving ahead let’s talk about what skills we required to build a website like 
 },
 
 // -----------------------------------
+{
+  id: 51,
+  title: " JAY BANK / BMS ",
+  date: "Oct 2026 - WIP",
+  description:
+"This Banking Management System is a secure and scalable web application built using Spring Boot and Spring AI. It covers essential banking operations such as Customer Onboarding, Account Management, Branch Services, and Audit Tracking. Customers can open and manage accounts, check balances, and perform transactions in real time. Bank staff can onboard new users, manage branch details, and monitor services. An integrated Audit Controller ensures compliance and transparency by tracking every activity. The system uses Spring Security with JWT and OTP authentication for robust protection, and a structured MySQL database for reliable data storage. Designed with RESTful APIs and deployed using Docker & Kubernetes on AWS, the application reduces manual work, improves efficiency, and delivers a production‑ready banking workflow."    ,
+    image:
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpluHvSNENc29rcpaxBDbGOVlUk50PMC1Ma2pBCu2hhQ&s=10",
+  tags: [
+
+    "Java EE",
+    "Spring Boot",
+    "REST API",
+    "MySQL",
+    "Git-Hub",
+    "AWS",
+    "Spring Security",
+    "Spring AI",
+  ],
+  category: "web app",
+  github: "https://github.com/JayeshST/banking_sts",
+  webapp: "",   
+},
 
 
 
 
 
 ];
-
