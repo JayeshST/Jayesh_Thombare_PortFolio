@@ -17,7 +17,6 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
 
-// Material UI Icons
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -32,7 +31,6 @@ const Navbar = () => {
   const theme = useTheme();
   const dropdownRef = useRef(null);
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -91,8 +89,7 @@ const Navbar = () => {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
-
-          {/* Social Media Dropdown */}
+          {/* Desktop Socials Dropdown */}
           <div style={{ position: "relative" }} ref={dropdownRef}>
             <NavLink
               href="#socialmedia"
@@ -104,39 +101,21 @@ const Navbar = () => {
               Socials▾
             </NavLink>
             {socialOpen && (
-              <div
-                style={{
-                  position: "absolute",
-                  top: "100%",
-                  left: 0,
-                  background: "rgba(255,255,255,0.7)",
-                  backdropFilter: "blur(8px)",
-                  boxShadow: "0px 4px 12px rgba(0,0,0,0.15)",
-                  borderRadius: "10px",
-                  zIndex: 1000,
-                  display: "flex",
-                  flexWrap: "wrap",
-                  gap: "16px",
-                  padding: "14px",
-                  animation: "fadeIn 0.3s ease-in-out"
-                }}
-              >
+              <div style={{
+                position: "absolute",
+                top: "100%",
+                left: 0,
+                background: "rgba(255,255,255,0.95)",
+                boxShadow: "0px 4px 12px rgba(0,0,0,0.15)",
+                borderRadius: "10px",
+                zIndex: 1000,
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "16px",
+                padding: "14px"
+              }}>
                 {socialLinks.map((item, index) => (
-                  <a
-                    key={index}
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={linkStyle}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "violet";
-                      e.currentTarget.style.background = "rgba(200,200,255,0.3)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "blue";
-                      e.currentTarget.style.background = "transparent";
-                    }}
-                  >
+                  <a key={index} href={item.href} target="_blank" rel="noopener noreferrer" style={linkStyle}>
                     {item.icon} {item.label}
                   </a>
                 ))}
@@ -145,7 +124,7 @@ const Navbar = () => {
           </div>
         </NavItems>
 
-        {/* GitHub Button */}
+        {/* GitHub Button (Desktop) */}
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
             Github Profile
@@ -153,7 +132,7 @@ const Navbar = () => {
         </ButtonContainer>
 
         {/* Mobile Menu */}
-{isOpen && (
+        {isOpen && (
   <MobileMenu isOpen={isOpen}>
     <MobileLink href="#about" onClick={() => setIsOpen(false)}>About</MobileLink>
     <MobileLink href="#skills" onClick={() => setIsOpen(false)}>Skills</MobileLink>
@@ -161,25 +140,50 @@ const Navbar = () => {
     <MobileLink href="#projects" onClick={() => setIsOpen(false)}>Projects</MobileLink>
     <MobileLink href="#education" onClick={() => setIsOpen(false)}>Education</MobileLink>
 
-    {/* Socials Section just below Education */}
-    <div style={{ marginTop: "12px" }}>
-      <span style={{ fontWeight: "600", marginBottom: "8px", display: "block" }}>Socials</span>
-      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-        {socialLinks.map((item, index) => (
-          <a
-            key={index}
-            href={item.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={linkStyle}
-            onClick={() => setIsOpen(false)} // close menu after click
-          >
-            {item.icon} {item.label}
-          </a>
-        ))}
-      </div>
+    {/* ✅ Socials Tab directly below Education */}
+    <div style={{ position: "relative", width: "100%" }}>
+      <MobileLink
+        href="#socials"
+        onClick={(e) => {
+          e.preventDefault();
+          setSocialOpen(!socialOpen);
+        }}
+        style={{ fontWeight: "600", color: theme.primary }}
+      >
+        Socials ▾
+      </MobileLink>
+
+      {socialOpen && (
+        <div
+          style={{
+            marginTop: "8px",
+            background: "rgba(255,255,255,0.95)",
+            boxShadow: "0px 4px 12px rgba(0,0,0,0.15)",
+            borderRadius: "10px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "10px",
+            padding: "12px",
+            width: "100%"
+          }}
+        >
+          {socialLinks.map((item, index) => (
+            <a
+              key={index}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ ...linkStyle, color: "black" }}
+              onClick={() => setIsOpen(false)}
+            >
+              {item.icon} {item.label}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
 
+    {/* GitHub Button */}
     <GitHubButton
       style={{
         padding: '10px 16px',
@@ -196,7 +200,6 @@ const Navbar = () => {
   </MobileMenu>
 )}
 
-        
       </NavbarContainer>
     </Nav>
   )
