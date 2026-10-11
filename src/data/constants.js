@@ -572,7 +572,7 @@ Moving ahead let’s talk about what skills we required to build a website like 
 
 // -----------------------------------
 {
-  id: 51,
+  id: 52,
   title: " JAY BANK / BMS ",
   date: "Oct 2026 - WIP",
   description:
@@ -592,6 +592,29 @@ Moving ahead let’s talk about what skills we required to build a website like 
   ],
   category: "web app",
   github: "https://github.com/JayeshST/banking_sts",
+  webapp: "",   
+},
+{
+  id: 53,
+  title: "User Mapping / MS ",
+  date: "Oct 2026 - WIP",
+  description:
+"User Role Mapping System (Spring Boot + MySQL) Designed and implemented a role‑based user management application using Spring Boot, JPA, and MySQL. The system maps each user to a specific role with detailed descriptions, ensuring secure access control. Developed RESTful APIs for authentication and authorization, integrated with Spring Security (BCrypt password hashing), and implemented token‑based session handling. The project demonstrates expertise in entity relationships (@OneToMany, @ManyToOne), DTO mapping with ModelMapper, and exception handling.",
+  image:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhVIJmDLjtF2-9Y4e6a81532YhRsXLWiILRfgL3p0xA&s=10",
+  tags: [
+
+    "Java EE",
+    "Spring Boot",
+    "REST API",
+    "MySQL",
+    "Git-Hub",
+    "AWS",
+    "Spring Security",
+    "Spring AI",
+  ],
+  category: "web app",
+  github: "https://github.com/JayeshST/Mapping_project",
   webapp: "",   
 },
 
